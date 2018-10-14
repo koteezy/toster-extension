@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Toster",
+  "description": "...",
+  "short_name": "Toster",
+  "version": "0.1",
+  "permissions":
+  [
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["https://toster.ru/q/*"],
+      "js": ["/bundle/app.min.js"]
+    }
+  ]
+
+}
